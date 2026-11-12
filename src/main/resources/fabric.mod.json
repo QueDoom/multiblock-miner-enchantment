@@ -1,0 +1,46 @@
+{
+	"schemaVersion": 1,
+	"id": "qsmultiblockminerenchantment",
+	"version": "${version}",
+	"name": "Q's Multiblock Miner Enchantment",
+	"description": "Makes it so you need an enchantment to use the multiblock miner.",
+	"authors": [
+		"QueDoom"
+	],
+	"contact": {
+		"homepage": "https://quedoom.com/",
+		"sources": "https://github.com/QueDoom/multiblock-miner-enchantment"
+	},
+	"license": "MIT",
+	"icon": "assets/qsmultiblockminerenchantment/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.quedoom.multiblock_miner.enchantment.QSMultiblockMinerEnchantment"
+		],
+		"client": [
+			"net.quedoom.multiblock_miner.enchantment.QSMultiblockMinerEnchantmentClient"
+		]
+	},
+	"custom": {
+	"modmenu": {
+		"links": {
+			"modmenu.discord": "https://discord.gg/xkdXpApT5r",
+			"modmenu.issues": "https://github.com/QueDoom/multiblock-miner-enchantment/issues"
+		},
+		"parent": {
+			"id": "qsmultiblockminer"
+		}
+	}
+},
+	"mixins": [
+		"qsmultiblockminerenchantment.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": ">=26.1",
+		"java": ">=25",
+		"fabric-api": "*",
+		"qsmultiblockminer": ">=1.1.0"
+	}
+}

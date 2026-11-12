@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "net.quedoom.multiblock_miner.enchantment.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "ExampleMixin",
+    "MakeMultimineReqEnchantmentMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+	}
+}

@@ -1,0 +1,20 @@
+{
+  "description": {
+    "translate": "enchantment.qsmultiblockminerenchantment.multimine"
+  },
+  "supported_items": "#minecraft:enchantable/mining",
+  "weight": 11,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 51,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 12,
+  "slots": [
+    "mainhand"
+  ]
+}
